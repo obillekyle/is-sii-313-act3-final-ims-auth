@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <!--
+    The kit: the Vue component kit's core set as WinForms controls, with no
+    package dependencies. To use it in another project, add this project to
+    the solution and reference it, or copy the Kit folder over: the controls
+    appear in Visual Studio's Toolbox under the project's name.
+  -->
+  <PropertyGroup>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>Kit</RootNamespace>
+    <AssemblyName>Kit</AssemblyName>
+    <Version>0.1.0</Version>
+    <GenerateDocumentationFile>false</GenerateDocumentationFile>
+  </PropertyGroup>
+
+</Project>

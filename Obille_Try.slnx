@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="Kit.Gallery/Kit.Gallery.csproj" />
+  <Project Path="Kit/Kit.csproj" />
+  <Project Path="Obille_Try/Obille_Try.csproj" />
+</Solution>

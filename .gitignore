@@ -1,0 +1,16 @@
+# Build output and editor state
+bin/
+obj/
+.vs/
+*.user
+
+# Access's lock file while the database is open
+*.laccdb
+
+# Not part of the activity
+CLAUDE.md
+letters/
+
+# Earlier captures; the activity's sketches stay
+shots/*
+!shots/scan*.jpg

@@ -1,0 +1,18 @@
+# C# as Prettier writes JavaScript: two-space indents, a brace opens on the
+# line that starts the block, and else, catch and finally follow the closing
+# brace. Visual Studio's
+# Format Document and `dotnet format` read this file. The designer's
+# *.Designer.cs and the generated *.g.cs count as generated code and are left
+# as their writers make them.
+root = true
+
+[*.cs]
+indent_style = space
+indent_size = 2
+end_of_line = lf
+insert_final_newline = true
+
+csharp_new_line_before_open_brace = none
+csharp_new_line_before_else = false
+csharp_new_line_before_catch = false
+csharp_new_line_before_finally = false
